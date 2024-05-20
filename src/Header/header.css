@@ -16,6 +16,7 @@
 }
 .h-list{
   display: flex;
+  align-items: center;
   gap: 25px;
 }
 .h-list> li> a{

@@ -1,6 +1,6 @@
 
 import './header.css';
-// import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import React, { useState } from 'react';
 // import OutsideClickHandler from "react-outside-click-handler"
 
@@ -30,7 +30,7 @@ function Header(){
         </ul>
         <button className="hamburger" onClick={() => setMenuOpen(((m) => !m
         ))}>
-              <span className="hamburger-icon">Work</span>
+              <span className="hamburger-icon"><GiHamburgerMenu/></span>
         </button>
       </div>
     </header>
