@@ -1,0 +1,11 @@
+.a-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+.a-wrapper>:first-child{
+  text-align: center;
+}
+.achievement{
+ background-color: var(--cream);
+}

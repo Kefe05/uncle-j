@@ -1,0 +1,17 @@
+.hero-container{
+  background: url('../assets/placeholder.jpg') center;
+  height: 100vh;
+  background-size: cover;
+}
+.hero-wrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 100%;
+}
+.hero-wrapper{
+  color: var(--cream);
+  font-weight: 600;
+  font-size: 50px;
+  margin: 0 240px;
+}
